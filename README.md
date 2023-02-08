@@ -1,1 +1,1 @@
-# Alzheimer-s_detection
+# Alzheimer_detection
