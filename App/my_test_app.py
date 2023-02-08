@@ -5,8 +5,8 @@ from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 import cv2
 
-image = Image.open('image_presentation.jpg')
-st.image(image, caption='Brain MRI scans')
+#image = Image.open('image_presentation.jpg')
+#st.image(image, caption='Brain MRI scans')
 
 st.header("Alzheimer's Disease Prediction")
 st.subheader("Predicts the diagnosis of Alzheimer's disease based on the patient's MRI image.")
