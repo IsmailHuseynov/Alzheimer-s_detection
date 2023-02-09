@@ -5,18 +5,18 @@ from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 import cv2
 
-#image = Image.open('image_presentation.jpg')
-#st.image(image, caption='Brain MRI scans')
+image = Image.open('App/image_presentation.jpg')
+st.image(image, caption='Brain MRI scans')
 
 st.header("Alzheimer's Disease Prediction")
 st.subheader("Predicts the diagnosis of Alzheimer's disease based on the patient's MRI image.")
 st.write("This application uses CNN model")
 
 
-model1 = load_model("alz_model.h5")
+#model1 = load_model("alz_model.h5")
 
 # Loading the model in Jupyter
-model2 = load_model("model_kaggle_alzheimer.h5")
+model2 = load_model("App/model_kaggle_alzheimer.h5")
 
 file = st.file_uploader("Please upload an MRI image.", type=["jpg", "png"])
 
