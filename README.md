@@ -10,8 +10,11 @@ In the context of detecting Alzheimer’s disease, Computer Vision, Image Classi
 The dataset comes from [Kaggle](https://www.kaggle.com/datasets/sachinkumar413/alzheimer-mri-dataset) and consists of 6400 pre-processed brain MRI images:
 
 **Class - 1**: *Mild Demented* (896 images)
+
 **Class - 2**: *Moderate Demented* (64 images)
+
 **Class - 3**: *Non Demented* (3200 images)
+
 **Class - 4**: *Very Mild Demented* (2240 images)
 
 
