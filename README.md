@@ -20,13 +20,19 @@ The dataset comes from [Kaggle](https://www.kaggle.com/datasets/sachinkumar413/a
 
 ### Tools
 `os` and `cv2` are used for image processing and handling;
+
 `matplotlib` and `seaborn` are used for data visualization;
+
 `sklearn` is used for machine learning algorithms;
+
 `tensorflow` and `keras` are used for building and training deep learning models;
+
 `streamlit` is used for creating web-based applications to visualize and interact with the trained models.
 
 ### Streamlit App
-[Try the App here](https://ismailhuseynov-alzheimer-s-detection-appmy-test-app-wvmbiy.streamlit.app/)
+After training and evaluating our model, we deploy it in a Streamlit App that allows users to upload brain MRI scans and obtain predictions on whether the patient has Alzheimer’s disease.
+
+[You can try the App here](https://ismailhuseynov-alzheimer-s-detection-appmy-test-app-wvmbiy.streamlit.app/)
 
 
 Thank you for your interest in our article "On the early detection of Alzheimer's disease using a Deep Learning approach". You can access the article through the following link, which is published on Medium.com:
